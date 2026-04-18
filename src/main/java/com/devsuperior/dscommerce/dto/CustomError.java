@@ -15,6 +15,10 @@ public class CustomError {
         this.path = path;
     }
 
+    public CustomError() {
+
+    }
+
     public Instant getTimestamp() {
         return timestamp;
     }
